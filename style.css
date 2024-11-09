@@ -1,0 +1,102 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and global styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Header and Navigation */
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header .logo {
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff6347; /* Tomato color for hover */
+}
+
+/* Sections styling */
+.section {
+  padding: 40px 0;
+}
+
+#portfolio .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.gallery-item p {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* Contact section */
+.contact-info {
+  list-style: none;
+}
+
+.contact-info li {
+  margin: 5px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 0.9em;
+}
